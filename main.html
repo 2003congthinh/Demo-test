@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>THTK Group Web</title>
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/it_work.css">
+    <link rel="stylesheet" href="CSS/it-technology.css">
+
+    <link rel="icon" href="assets/school_icon.png">
+
+    <script src="Script/main.js"></script>
+</head>
+<body class="mainbody">
+    <div class='box frontpage' id="frontpage">
+        <h1 id="header">
+            <p id="header_txt">THTK GROUP</p>
+            <ul id="menu">
+                <li onclick="scrolltotop()"> Home </li>
+                <li onclick="scrolltodiv('teamprofile')"> Team Profile & Feedback </li>
+                <li onclick="scrolltodiv('tooldiv')">Tools </li>
+                <li onclick="scrolltodiv('itworkdiv')">IT Works </li>
+                <li onclick="scrolltodiv('ittechdiv')">IT Technology </li>
+                <li onclick="scrolltodiv('projectdiv')"> Project Idea </li>
+            </ul>
+        </h1>
+        <p class="frontpage-desc">
+            Tran Nam Thai
+        </p>
+        <p class="frontpage-desc">
+            Bui Viet ha
+        </p>
+        <p class="frontpage-desc">
+            Tang Minh Tri
+        </p>
+        <p class="frontpage-desc">
+            Nguyen Vo Dang Khoa
+        </p>
+
+        <div class="scrolldown" id="scrolldown" style="margin-top: 5vh"></div>
+        <div class="scrolldown" id="scrolldown" ></div>
+        <div class="scrolldown" id="scrolldown" ></div>
+        <p style="position: absolute; top: 80vh; left: 50%; transform: translate(-50%, 0%)">Scroll Down</p>
+        
+
+    </div>
+
+    <div class='box'
+    style="background-color: white;
+    width:95%;
+    align-self: center;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)"
+    id="teamprofile">
+        <div id='profile'>
+            <p id="profile_title" style="color: black !important; text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);">
+                Team Profile & Feedback
+                </p>
+        </div>
+        <div id="section_container">
+
+            <a class="section" href='profiles/trannamthai.html'>
+                <img class="profile_img" src="assets/profile_image/namthai.jpg" >
+
+                <figure>
+                    <p class="section_desc">Tran Nam Thai</p>
+                    <p class="section_desc">S3891890</p>
+                    <p class="section_desc">15/11/2002</p>
+                    <p class="section_desc">Click for more infomation</p>
+                </figure>
+            </a>
+
+
+            <a class="section" id="profile_ha" href='profiles/buivietha.html'>
+                <img id="profile_img_ha" src="assets/profile_image/habui.png" >
+
+                <figure class='overlay'>
+                    <p class="section_desc">Bui Viet Ha</p>
+                    <p class="section_desc">s3928433</p>
+                    <p class="section_desc"> 20/9/2003 </p>
+                    <p class="section_desc">Click for more infomation</p>
+                </figure>
+            </a>
+
+            <a class="section" href='profiles/tangminhtri.html'>
+                <img class="profile_img" src="./assets/profile_image/minhtri.jpg" >
+
+                <figure class='overlay'>
+                    <p class="section_desc">Tang Minh Tri</p>
+                    <p class="section_desc">s3927579</p>
+                    <p class="section_desc">06/03/2003</p>
+                    <p class="section_desc">Click for more infomation</p>
+                </figure></a>
+
+            <a class="section" id="profile-khoa" href='profiles/nguyenvodangkhoa.html'>
+                <img id="profile_img_khoa" src="./assets/profile_image/khoanguyen.jpg" >
+
+                <figure class='overlay'>
+                    <p class="section_desc">Nguyen Vo Dang Khoa</p>
+                    <p class="section_desc">s3929602</p>
+                    <p class="section_desc">19/8/2003</p>
+                    <p class="section_desc">Click for more infomation</p>
+                </figure></a>
+
+        </div>
+
+    </div>
+
+    <div class='box'
+    style="margin-top: 10vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    width:95%;
+    align-self: center;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);"
+    >
+
+        <div id='tool'>
+            <p id="job_title"> Ideal Jobs<br>Comparasion </p>
+        </div>
+
+        <div id="job_container">
+            <p id="job_desc">Our members have diverse ideal jobs in the IT world. Ha destined to be an AI Engineer after his graduation at RMIT, while Khoa fell in love with Game Development since he was a little kid. Another examples are Tri and Thai, who chose their career paths as Python Developer and Data Analysis. We both have in common that our IT plans are hot potatoes currently and in the near future, or related to AI. To enhance the graphics for gaming products, companies such as Nvidia, Intel, and AMD have to pour their resources in AI, which improve their graphic cards and vice versa. As a result, the field that Khoa will be working in is going to need AI Engineer like Ha Viet Bui. Moreover, data analysis can’t be left out because of their effort in collecting and analyzing data to use for game industry, and further development of AI. With the need of mastering Python, Tri’s career also play a crucial role. In the 4.0 industry, Python earns its place highly for the versatility and how well-suited with AI or machine learning. 
+                <br>
+                <br>
+                On the other hand, THKT ideal jobs can be categorized into two main parts: creative and analytical. AI engineer and Data analysis aim mainly at working with Big Data and Artificial Intelligent. While, Game or Python dev tend to be creative as we have to come up with new ideas for functions, games, user interfaces, …
+                </p>
+            
+        </div>
+
+        
+
+    </div>
+
+
+    <div class='box'
+    style="margin-top: 10vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    width:95%;
+    align-self: center;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3)"
+    id="tooldiv">
+
+        <div id="tool_container">
+            <p id="tool_desc" style="background-color: transparent; padding: 20px 10px 20px 10px; border-radius: 15px;">
+                Our preferred text editor is Google Docs. 
+                We primarily used Google Docs for draft editing because it works in real-time, eliminated the amount of time it takes to share files. 
+                Running in real-time also helps us during pandemics because we can mostly discuss and edit online without having to meet face-to-face. 
+                <br>
+                <br>
+                Working online necessitates some form of communication, and we use Meta Messenger and Discord to do so. 
+                We usually communicate via Messenger because it is popular among Vietnamese and we all have access to it. 
+                We used Discord, a real-time communication app similar to Skype, to discuss problems that are difficult to communicate through text, such as web UI, layout, text decoration, and so on. 
+                <br>
+                <br>
+                Atom and Visual Studio Code are our go-to code editors when working on the website. 
+                Both code editors are well-known among developers, but Atom has a slight advantage in that it is easier to learn for beginners. 
+                VS Code, on the other hand, supports more plug-ins, which helps speed up the development process. 
+                The website was built using HTML, CSS, and JavaScript. Without the use of any external libraries, our website is made entirely of plain HTML, CSS, and JavaScript. 
+                <br>
+                <br>
+                Finally, for version control and web hosting, we used GitHub. Our GitHub reposotory can be found <a target="_blank" href="https://github.com/klenathan/thtkgroupassignment">here</a>.GitHub version control saved us once when we had some minor errors and bugs during the development process. 
+                We used GitHub to host our website, which you can find at <a target="_blank" href="https://klenathan.github.io/thtkgroupassignment">https://klenathan.github.io/thtkgroupassignment</a>. 
+                Because we used GitHub's free web hosting service, it can take up to 10-15 minutes for GitHub to initialize our code after we upload it.</p>
+            <div class="logo_container">
+                <img title="HTML" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" class = "tool_logo">
+                <img title="CSS" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" style="width: 80% !important" class = "tool_logo">
+                <img title="Google Docs" src="assets/googledoc.png" style="width: 110% !important" class = "tool_logo">
+
+                <img title="GitHub" src="assets/GitHub_Logo.png" style="width: 90% !important"  class = "tool_logo">
+                <img title="VS Code" src="assets/vscode.png" id="vscode" class = "tool_logo">
+            </div>
+        </div>
+
+        <div id='tool'>
+            <p id="tool_title"> Tools </p>
+        </div>
+
+    </div>
+
+    <div class='it-work-box' id="itworkdiv">
+        <div class='it-work'>
+            <p id="it_work_title"> IT WORK </p>
+        </div>
+        <div class="itwork_container">
+            <a class="itwork-content" href="itwork/dataanalyst.html">
+                <img class="it_work_img" src="https://career.gpo.vn/uploads/images/47945710/images/gpo-5-ky-nang-khong-the-thieu-cua-data-analyst(3).jpg">
+                
+                <p class="job_label">Data Analyst</p>
+                
+                
+            </a>
+            <a class="itwork-content" href="itwork/gamedeveloper.html">
+                <img class="it_work_img" src="https://jobsgo.vn/blog/wp-content/uploads/2021/05/game-developer.jpg">
+                
+                <p class="job_label">Game Developers</p>
+                </a>
+            <a class="itwork-content" href="itwork/softwareengineer.html">
+                <img class="it_work_img" src="assets/it_work/ss.jpg">
+                
+                <p class="job_label">Software Engineer</p>
+                </a>
+            <a class="itwork-content" href="itwork/cybersecurity.html">
+                <img class="it_work_img" src="assets/it_work/cybersecurity.jpg">
+                
+                <p class="job_label">Cyber Security</p>
+                </a>
+            <a class="itwork-content" href="itwork/generalitworker.html">
+                <img class="it_work_img" src="assets/it_work/general.jpg">
+                
+                <p class="job_label">General IT Worker</p>
+                </a>
+        </div>
+
+    </div>
+
+    <div class='it-technology-box' id="ittechdiv">
+        <div class='it-technology'>
+            <p id="it_technology_title"> IT TECHNOLOGY </p>
+        </div>
+        <div class="ittechnology-container">
+            <a class="ittechnology-content" href="technologies/autonomousvehicles.html"">
+                <img src="https://cloudblogs.microsoft.com/industry-blog/wp-content/uploads/industry/2019/06/Automotive-image_Blog_R2-a1.png">
+                <div>
+                    <p1>Autonomous<br>Vehicles</p1>
+                    <br>
+                    <p2 styles="font-size: 10px !important">by Tran Nam Thai</p2>
+                </div>
+            </a>
+            <a class="ittechnology-content" href="technologies/vr.html">
+                <img src="https://content.fortune.com/wp-content/uploads/2016/12/612997102.jpg?resize=750,500">
+                
+                <div>
+                    <p1>V.R</p1>
+                    <br>
+                    <p2 styles="font-size: 10px !important">by Bui Viet Ha</p2>
+                </div>
+            </a>
+            <a class="ittechnology-content" href="technologies/cloudcomputing.html">
+                <img src="https://bizcloud.vn/blog/wp-content/uploads/2020/11/960x0-1-750x375.jpg">
+                <div>
+                    <p1>Cloud<br>Computing</p1>
+                    <br>
+                    <p2 styles="font-size: 10px !important">by Tang Minh Tri</p2>
+                </div>
+            </a>
+            <a class="ittechnology-content" href="technologies/ai.html">
+                <img src="https://static.scientificamerican.com/sciam/cache/file/B5EEA99B-9A70-44CC-B41AFC2EF100377A_source.jpg?w=590&h=800&B563C430-99B7-492D-A6716207E5344C2B">
+                <div>
+                    <p1>A.I</p1>
+                    <br>
+                    <p2 styles="font-size: 10px !important">by Nguyen Vo Dang Khoa</p2>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class='project-box' id="projectdiv">
+        <div class='it-technology'>
+            <p id="profile_title"> Project </p>
+        </div>
+        <div class="project-container">
+            <div class="profile_img_container">
+                <img class="project_img" src="./assets/profile_image/minhtri.jpg" >
+                <img class="project_img" src="assets/profile_image/habui.png" >
+                <img class="project_img" src="assets/profile_image/namthai.jpg" >
+                <img class="project_img" src="./assets/profile_image/khoanguyen.jpg" >
+            </div>
+            <p class="project_summary">
+                Every member of the THKT group has their own intriguing and astounding ideas that will undoubtedly be a significant step forward for humanity's future. 
+                To summarize, we have concepts about: Smart-home applications, FPS shooting-horror games, virtual reality and social media platforms about psychology. Following a joint discussion, we have determined to choose Tri’s project idea: PyschoHub - a psychology therapy program assisted with AI technology. 
+                Furthermore, we will improve the project by combining Tri's concept with those of other members, resulting in a project that is as thorough and detailed as possible.
+                <a href="projectidea.html">Continue Reading ...</a>
+            </p>
+            
+        </div>
+    </div>
+
+    <div class='footer'>
+        <p style="margin-top: 10px"> The website is done by:</p>
+        <div class="name_container">
+            <p class="footer_desc">
+                Tran Nam Thai
+            </p>
+            <p class="footer_desc">
+                Bui Viet ha
+            </p>
+            <p class="footer_desc">
+                Tang Minh Tri
+            </p>
+            <p class="footer_desc">
+                Nguyen Vo Dang Khoa
+            </p>
+        </div>
+        <p style="margin-top: 10px"> The website is powered by: 
+            <img style="height: 30px; filter: invert(100%); position: relative; top: 7px"
+            src="assets/GitHub_Logo.png">
+        </p>
+        <img style="height: 50px; filter: brightness(0) invert(100%); margin-top: 15px;"
+            src="assets/school_icon.png">
+        
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(61, 61, 61);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(120,0,246,1) 0%, rgba(255,0,193,1) 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgb(150, 52, 255) 0%, rgb(255, 67, 208) 100%);
+}
+
+
+.it-technology-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    margin: 5vh 0 5vh 0;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0 5vh 0;
+}
+
+.it-technology {
+    flex: 1
+}
+
+.ittechnology-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    height: 80vh;
+    padding: 2.5%;
+    text-align: center;
+    grid-column-gap: 6%;
+    grid-row-gap: 5%
+}
+
+
+
+.ittechnology-content {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.ittechnology-content:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ittechnology-content:hover img{
+    opacity: 1;
+}
+
+.ittechnology-content:hover p1{
+    opacity: 0;
+}
+.ittechnology-content:hover p2{
+    opacity: 0;
+}
+
+.ittechnology-content p2{
+    transition: 0.3s ease-in-out;
+}
+.ittechnology-content p1{
+    transition: 0.3s ease-in-out;
+}
+
+
+.ittechnology-content div {
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: 1;
+    position: absolute;
+    align-self: center;
+    transition: 0.3s ease-in-out;
+}
+p1 {
+    font-size: 40px;
+}
+.ittechnology-content img{
+    opacity: 0.2;
+    display: absolute; 
+    object-fit: cover; 
+    height: 100%; 
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+ 
